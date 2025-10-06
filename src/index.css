@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+  line-height: 1.6;
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}
+
+section {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+/* Checkbox styling with white checkmarks */
+input[type="checkbox"] {
+  appearance: none;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid var(--color-input);
+  border-radius: 0.25em;
+  background-color: var(--color-card);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 0.35em;
+  top: 0.15em;
+  width: 0.3em;
+  height: 0.6em;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+input[type="checkbox"]:focus {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}

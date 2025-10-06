@@ -1,0 +1,1 @@
+export { RSSReader } from './RSSReader';

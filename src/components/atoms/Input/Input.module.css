@@ -1,0 +1,14 @@
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid var(--color-input);
+  border-radius: var(--radius);
+  font-size: 16px;
+  background: var(--color-card);
+  color: var(--color-card-foreground);
+}
+
+.input:focus {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}

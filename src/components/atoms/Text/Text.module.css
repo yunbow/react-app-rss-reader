@@ -1,0 +1,64 @@
+.text {
+  color: var(--color-foreground);
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color-primary-foreground);
+}
+
+.feedTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-foreground);
+}
+
+.articleTitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.articleTitle a {
+  color: var(--color-foreground);
+  text-decoration: none;
+}
+
+.articleTitle a:hover {
+  color: var(--color-primary);
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: var(--color-muted-foreground);
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: var(--color-card-foreground);
+  line-height: 1.5;
+}
+
+.noFeeds {
+  text-align: center;
+  color: var(--color-muted-foreground);
+  font-style: italic;
+  padding: 2rem;
+}
+
+.loading {
+  text-align: center;
+  color: var(--color-muted-foreground);
+  font-style: italic;
+}
+
+.error {
+  color: var(--color-destructive-foreground);
+  background: var(--color-destructive);
+  opacity: 0.1;
+  padding: 10px;
+  border-radius: var(--radius);
+  margin: 10px 0;
+}
