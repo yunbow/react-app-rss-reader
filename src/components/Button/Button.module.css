@@ -1,0 +1,31 @@
+.button {
+  padding: 10px 20px;
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  background: var(--color-muted);
+  color: var(--color-muted-foreground);
+  cursor: not-allowed;
+}
+
+.remove {
+  background: var(--color-destructive);
+  color: var(--color-destructive-foreground);
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.remove:hover {
+  opacity: 0.9;
+}

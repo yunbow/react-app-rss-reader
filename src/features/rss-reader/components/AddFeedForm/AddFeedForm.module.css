@@ -1,0 +1,13 @@
+.addFeed {
+  background: var(--color-card);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  margin-bottom: 2rem;
+}
+
+.feedInput {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
